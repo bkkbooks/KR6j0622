@@ -31,9 +31,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6j0622_000.yaml, hash: 'sha256:60894bbc398de6a5232397263423c263fcf6dbfabd3b6bdb33ac7647d00a8b03'}
-  - {seq: 1, filename: KR6j0622_001.yaml, hash: 'sha256:b91899f12fdfb3bcb6f47dd54d561e03398d0a3fde06ff882cd50491eb5536ad'}
+  - {seq: 1, filename: KR6j0622_001.yaml, hash: 'sha256:aaf03210fc45b3dea3ffb4a5646a891daaebf939a6c27cfa520c7e45ccfbeb93'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6j0622_001.markers.yaml, hash: 'sha256:6ec687448079fdd1950e14ec67d9cbd8d53ef0af6b0111dc723036804b5162c9'}
+  - {seq: 0, role: markers, filename: assets/KR6j0622_000.markers.yaml, hash: 'sha256:0d9755248c0eba3a93133a589251336d70c87cf90cae2a973cc77325c1a4dc86'}
+  - {seq: 1, role: markers, filename: assets/KR6j0622_001.markers.yaml, hash: 'sha256:bacc63153de94e061cfa6729a9eb55aa7e1035d55467bd02a2d4268336df1872'}
 table_of_contents:
 - ref:
     seq: 1
@@ -45,7 +46,4 @@ table_of_contents:
   label: 佛說洛叉陀羅尼經
   type: juan
   level: 1
-hash: sha256:05fda9a05311f13b1fbaf02673d570f0991ed38d8858c41e65532bf38998dade
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:5ece221cb50ef16f6c9e66d5fbf394e5f398837ad604addebe25f9057626dab4
