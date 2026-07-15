@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6j0622/v1
 canonical_location: https://kanripo.org/bkk/KR6j0622/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 佛說洛叉陀羅尼經
   identifiers:
@@ -31,10 +31,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6j0622_000.yaml, hash: 'sha256:60894bbc398de6a5232397263423c263fcf6dbfabd3b6bdb33ac7647d00a8b03'}
-  - {seq: 1, filename: KR6j0622_001.yaml, hash: 'sha256:aaf03210fc45b3dea3ffb4a5646a891daaebf939a6c27cfa520c7e45ccfbeb93'}
+  - {seq: 1, filename: KR6j0622_001.yaml, hash: 'sha256:7618ca58d2fb51c3ae89c22cbb154981244b4faff8aa3e80ef30eba516d1434f'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6j0622_000.markers.yaml, hash: 'sha256:0d9755248c0eba3a93133a589251336d70c87cf90cae2a973cc77325c1a4dc86'}
-  - {seq: 1, role: markers, filename: assets/KR6j0622_001.markers.yaml, hash: 'sha256:bacc63153de94e061cfa6729a9eb55aa7e1035d55467bd02a2d4268336df1872'}
+  - {seq: 1, role: markers, filename: assets/KR6j0622_001.markers.yaml, hash: 'sha256:e5b53aaf2700043aa2a23f7202e1452c79d2ddd7a66d716ae985d57a39db889b'}
 table_of_contents:
 - ref:
     seq: 1
@@ -46,4 +46,7 @@ table_of_contents:
   label: 佛說洛叉陀羅尼經
   type: juan
   level: 1
-hash: sha256:5ece221cb50ef16f6c9e66d5fbf394e5f398837ad604addebe25f9057626dab4
+hash: sha256:006c057f0f832d9a716d040724f343db3c2c6b763ac7ff8baec31d2248cc9e79
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
